@@ -4,7 +4,7 @@ num = input("What word number do you want? ")
 with open(x) as f:
 	text = f.read()
 
-x += "word"+str(num)+".txt"
+x += "-word-"+str(num)+".txt"
 
 text = text.split()
 result = text[num - 1: num + 3]
