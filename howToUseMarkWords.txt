@@ -1,0 +1,8 @@
+1) Open the Terminal in the right place (just like all other scripts)
+2) Type "python markWords.py"
+3) Give it the location of the origional text
+4) Give it the location of the words to replace
+5) Give it a word to use as a marker
+6) Tell it where to put the result
+7) ???
+8) Profit.
