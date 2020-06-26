@@ -41,7 +41,7 @@ def main():
         elif word == "xx":
           phrase += 1
         elif clean(word) in stopwords:
-          output.writerow([clean(word), paragraph, phrases[phrase]])
+          output.writerow([clean(word), "•", paragraph, phrases[phrase]])
 
   print "Thinking . . ."
   time.sleep(2)
